@@ -11,13 +11,11 @@
     gimp
     gtrash                            # rm replacement, put deleted files in system trash
     hexdump
-    jdk17                             # java
-    lazygit
-    libreoffice
+    gitui
+    onlyoffice
     cinnamon.nemo-with-extensions     # file manager
     nitch                             # systhem fetch util
     nix-prefetch-github
-    prismlauncher                     # minecraft launcher
     ripgrep                           # grep replacement
     soundwireserver                   # pass audio to android phone
     todo                              # cli todo list
@@ -25,7 +23,6 @@
     valgrind                          # c memory analyzer
     yazi                              # terminal file manager
     youtube-dl
-    gnome.zenity
     winetricks
     wineWowPackages.wayland
 
@@ -37,18 +34,16 @@
     python3
 
     bleachbit                         # cache cleaner
-    cmatrix
     gparted                           # partition manager
     ffmpeg
     imv                               # image viewer
     killall
     libnotify
-	  man-pages					            	  # extra man pages
+    man-pages			      # extra man pages
+    vlc
     mpv                               # video player
     ncdu                              # disk space
     openssl
-    pamixer                           # pulseaudio command line mixer
-    pavucontrol                       # pulseaudio volume controle (GUI)
     playerctl                         # controller for media players
     wl-clipboard                      # clipboard utils for wayland (wl-copy, wl-paste)
     cliphist                          # clipboard manager
@@ -58,6 +53,5 @@
     wget
     xdg-utils
     xxd
-    inputs.alejandra.defaultPackage.${system}
   ]);
 }
