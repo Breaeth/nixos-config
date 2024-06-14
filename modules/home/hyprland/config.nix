@@ -20,7 +20,7 @@
       ];
 
       input = {
-        kb_layout = "us";
+        kb_layout = "fr";
         numlock_by_default = true;
         follow_mouse = 1;
         sensitivity = 0;
@@ -130,6 +130,11 @@
 
         # keybindings
         "$mainMod, Return, exec, kitty"
+        "$mainMod, D, exec, discord"
+        "$mainMod, Q, exec, floorp"
+        "$mainMod, S, exec, spotify"
+        "$mainMod SHIFT, S, exec, steam"
+
         "ALT, Return, exec, kitty --title float_kitty"
         "$mainMod SHIFT, Return, exec, kitty --start-as=fullscreen -o 'font_size=16'"
         "$mainMod, B, exec, hyprctl dispatch exec '[workspace 1 silent] floorp'"
